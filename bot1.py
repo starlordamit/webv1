@@ -159,7 +159,7 @@ def handle(msg):
         for i in cmd_c(tx):
             bot.sendMessage(chat_id,i)
 html_maker()
-#bot = telepot.Bot(token)
-#bot.message_loop(handle)
-#while 1:
-#    time.sleep(10)
+bot = telepot.Bot(token)
+bot.message_loop(handle)
+while 1:
+    time.sleep(10)
